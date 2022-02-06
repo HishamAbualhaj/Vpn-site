@@ -1,0 +1,268 @@
+body{  
+    margin:0;
+   background-color: rgb(224, 226, 224);
+}
+.bg-container{
+    background: rgb(75,85,210);
+    background: linear-gradient(175deg, rgba(75,85,210,1) 0%, rgba(108,113,206,1) 50%, rgb(166, 155, 155) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1080px;
+    width:100%;
+    color: white;
+    box-shadow: 5px 5px 7px rgb(185, 185, 184);
+}
+.header{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.paragraph{
+    font-family: 'Supermercado One', cursive;
+}
+.nav{
+    right:5%;
+    position:absolute;
+    width:50%;
+}
+.header img {
+    margin:2% 0 0 15%;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.nav-list li {
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 2rem;
+    border: 1.5px solid white;
+    background: transparent;
+    border-radius:10px;
+    padding: 0.8rem 2.9rem;
+    font-family: 'Cormorant Garamond', serif;
+    transition:0.5s;
+}
+.li-top:hover{
+    background-color:white;
+    color: black;
+    transition:0.5s;
+    border: 1.5px solid white;
+    border-radius:10px;
+}
+.intro{
+text-align:center;
+}
+.intro p {
+    text-align: left;
+    font-size:6rem;
+    width:25%;
+    margin:7rem auto 0 auto;
+}
+.btn-container{
+    margin-top:20px;
+}
+.btn{
+    border: 1.5px solid white;
+    background: transparent;
+    border-radius:10px;
+}
+
+.btn-primary {
+    font-size:3.5rem;
+    text-decoration: none;
+    color: white;
+    font-family: Sakkal Majalla;
+    padding:7px 50px 7px 50px;
+    transition:0.5s;
+}
+.btn-secondary{
+    font-size:2rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: Sakkal Majalla;
+    padding:0 30px 0 30px;
+    transition:0.5s;
+}
+.btn-primary:hover{
+    background-color:white;
+    color: black;
+    transition:0.5s;
+    border: 1.5px solid white;
+    border-radius:10px;
+}
+.btn-secondary:hover{
+    background-color:white;
+    color:black;
+    font-size:3rem;
+    border-radius:10px;
+    padding:6px 25px 6px 25px;
+    transition:0.5s;
+}
+.cards-container{
+    display:flex;
+    justify-content: center;
+    gap:5rem;
+    box-shadow: 10px 10px 5px rgb(190, 190, 190);
+    background: rgb(227,195,155);
+    background: radial-gradient(circle, rgba(227,195,155,1) 0%, rgba(204,147,93,1) 100%);
+    margin:3rem 10rem;
+    border:1px solid transparent;
+    border-radius:20px;
+
+}
+.card{
+    border:0.5px solid transparent;
+    width:300px;
+    text-align:center;
+    border-radius:35px;
+    position:relative;
+    cursor:pointer;
+    transition:0.5s;
+    margin-top:50px;
+    box-shadow: 10px 10px 5px rgb(107, 105, 105);
+    background: rgb(193,184,177);
+    background: linear-gradient(180deg, rgba(193,184,177,1) 0%, rgba(254,243,240,1) 100%);
+}
+.silver:hover{
+    background: rgb(221,208,156);
+    background: linear-gradient(180deg, rgba(221,208,156,1) 0%, rgba(213,154,154,1) 100%);
+    transition:0.5s;
+    color:black;
+    transform:translateY(-10%);    
+}
+.gold:hover{
+    background: rgb(221,208,156);
+    background: linear-gradient(180deg, rgba(221,208,156,1) 0%, rgba(213,154,154,1) 100%);
+    transition:0.5s;
+    color:black;
+    transform:translateY(-10%);
+}
+.diamond:hover{
+    background: rgb(221,208,156);
+    background: linear-gradient(180deg, rgba(221,208,156,1) 0%, rgba(213,154,154,1) 100%);
+    transition:0.5s;
+    color:black;
+    transform:translateY(-10%);
+}
+.card:hover .NotForit h4{
+    text-decoration:none;
+    color: rgb(151, 0, 20);
+}
+.NotForit h4{
+    text-decoration:line-through red;
+}
+.description-head{
+    font-family: 'Rubik', sans-serif;
+}
+.diamond:hover .description-head{
+    color:rgb(10, 48, 117);
+    transition:0.3s;
+}
+.gold:hover .description-head{
+    color: rgb(55, 18, 141);
+    transition:0.3s;
+}
+.silver:hover .description-head{
+    color:rgb(48, 34, 34);
+    transition:0.3s;
+}
+.features-container{
+    width:50%;
+    margin: 0 auto 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+.features-container h4{
+    text-align:left;
+    line-height:20px;
+    width:200%;
+}
+.Footer{
+    display: flex;
+    justify-content:space-around;
+    color:white;
+    background-color:rgb(34, 34, 34);
+}
+.about-us{
+    width:25%;
+}
+.about-us h3{
+    font-size:3.5rem; 
+}
+.about-us p {
+    width:50%;
+    font-size:2rem;
+    line-height: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.social-media{
+    text-align:center;
+}
+.social-media p {
+    font-size:3rem;
+}
+.social-media img{
+    margin:1.5rem;
+  
+}
+.social-media li{
+    list-style:none;
+}
+
+.social-media ul {
+    text-align:left;
+}
+
+.get-in-touch{
+    text-align:center;
+    position: relative;
+}
+.get-in-touch p{
+    font-size:2.5rem ;
+}
+.get-in-touch a {
+    font-size:2rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: Sakkal Majalla;
+    padding:0 30px 0 30px;
+    border: 1.5px solid white;
+    background: transparent;
+    border-radius: 20px;
+    transition:0.5s;
+    width: 50px;
+    position:absolute;
+    bottom:40%;
+    right: 30%;
+}
+a:hover {
+    background-color: white;
+    color: black;
+  
+}
+input{
+    display:inline-block;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background:transparent;
+    width:100%;
+}
+.copyright{
+    width: 100%;
+    height: 70px;
+    background:rgb(56, 56, 56);
+    text-align: center;
+}
+.copyright h4 {
+   color: white;
+   margin-top:0;
+   padding-top:30px;
+   font-family: 'Cormorant Garamond', serif;
+}
+
+
+
