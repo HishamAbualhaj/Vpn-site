@@ -263,6 +263,10 @@ input{
    padding-top:30px;
    font-family: 'Cormorant Garamond', serif;
 }
+.social-media ul {
+    display:flex;
+}
+
 
 
 
