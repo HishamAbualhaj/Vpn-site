@@ -199,23 +199,24 @@ text-align:center;
     font-family: 'Raleway', sans-serif;
 }
 .social-media{
-    text-align:center;
+    margin-top:2%;
 }
-.social-media p {
-    font-size:3rem;
-}
-.social-media img{
-    margin:1.5rem;
-  
-}
-.social-media li{
-    list-style:none;
+.social-media h1{
+    font-size: 2.5rem;
 }
 
-.social-media ul {
-    text-align:left;
+.insta:hover{
+    color:rgb(189, 71, 35);
 }
-
+.facebook:hover{
+    color: #0b52eb;
+}
+.whats:hover{
+    color:rgb(59, 219, 59);
+}
+.twitter:hover{
+    color:#1DA1F2;
+}
 .get-in-touch{
     text-align:center;
     position: relative;
@@ -263,8 +264,15 @@ input{
    padding-top:30px;
    font-family: 'Cormorant Garamond', serif;
 }
-.social-media ul {
+.flex-icon {
     display:flex;
+    gap: 1rem;
+    margin:2rem;
+    transition:0.5s;
 }
 
-
+.flex-icon:hover{
+    transform:translateY(-20%);
+    cursor: pointer;
+    transition:0.5s;
+}
